@@ -18,7 +18,7 @@ pipeline {
         stage('Build') {
             steps {
                 // Run Maven clean and package commands
-                sh 'mvn clean package'
+                echo 'Hello Kushal...'
             }
         }
 
