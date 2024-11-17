@@ -1,5 +1,5 @@
 pipeline {
-    agent ubuntu
+    agent { label 'ubuntu'}
 
     environment {
         MAVEN_HOME = tool name: 'Maven', type: 'maven' // Ensure Maven is configured in Jenkins
